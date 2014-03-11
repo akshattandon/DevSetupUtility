@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" minHeight="213.0" prefHeight="388.0" prefWidth="437.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication1.controller.MainPageController">
+  <children>
+    <Button fx:id="nextButton" layoutX="199.0" layoutY="338.0" onAction="#handleNext" prefWidth="65.0" text="Next" />
+    <Button fx:id="cancelButton" layoutX="308.0" layoutY="338.0" onAction="#handleCancel" prefWidth="65.0" text="Close" />
+    <CheckBox fx:id="setDebugOn" layoutX="44.0" layoutY="50.0" mnemonicParsing="false" prefWidth="141.0" text="Set Debuggion On">
+      <font>
+        <Font name="System Bold" size="12.0" fx:id="x1" />
+      </font>
+      <textFill>
+        <Color blue="0.400" green="0.161" red="0.000" fx:id="x2" />
+      </textFill>
+    </CheckBox>
+    <CheckBox fx:id="setJSPDevelopmentFlag" font="$x1" layoutX="44.0" layoutY="74.0" mnemonicParsing="false" prefWidth="174.5" text="Set JSP Hot deployement" textFill="$x2" />
+    <CheckBox fx:id="configureJVMParams" font="$x1" layoutX="44.0" layoutY="97.0" mnemonicParsing="false" prefWidth="169.0" text="Set WFC Hot Deployment" textFill="$x2" />
+    <CheckBox fx:id="explodeEar" font="$x1" layoutX="44.0" layoutY="120.0" mnemonicParsing="false" prefWidth="141.0" text="Explode EAR" textFill="$x2" />
+    <CheckBox fx:id="copyLicenceFiles" font="$x1" layoutX="44.0" layoutY="147.0" mnemonicParsing="false" prefWidth="141.0" text="Copy License File" textFill="$x2" />
+    <CheckBox fx:id="setupjunitee" font="$x1" layoutX="44.0" layoutY="171.0" mnemonicParsing="false" prefWidth="141.0" text="JUnitEE Setup" textFill="$x2" />
+    <CheckBox fx:id="bytemanDebug" font="$x1" layoutX="44.0" layoutY="194.0" mnemonicParsing="false" prefWidth="141.0" text="Configure Byteman" textFill="$x2" />
+    <CheckBox fx:id="sqlTracing" font="$x1" layoutX="44.0" layoutY="226.0" mnemonicParsing="false" prefWidth="141.0" text="Enable Sql Tracing" textFill="$x2" />
+    <CheckBox fx:id="debugLogging" font="$x1" layoutX="44.0" layoutY="252.0" mnemonicParsing="false" prefWidth="141.0" text="Enable Debug Log" textFill="$x2" />
+    <CheckBox fx:id="forceSilverData" font="$x1" layoutX="44.0" layoutY="280.0" mnemonicParsing="false" prefWidth="141.0" text="Force Silverdata Load" textFill="$x2" />
+    <CheckBox fx:id="setKronosProperty" font="$x1" layoutX="44.0" layoutY="307.0" mnemonicParsing="false" prefWidth="141.0" text="Set Kronos Property" textFill="$x2" />
+  </children>
+</AnchorPane>
